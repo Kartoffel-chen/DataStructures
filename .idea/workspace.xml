@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="# 更新了README,以及一些注释">
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/stack/ArrayStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/stack/ArrayStackDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XnfNBjv3x62ZEyFb1pt7pVKUoz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,7 +66,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.ArrayQueue01">
+  <component name="RunManager" selected="Application.ArrayStackDemo">
     <configuration name="ArrayQueue01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.cz.arrayqueue.ArrayQueue01" />
       <module name="DataStructures" />
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.stack.PolandNotation" />
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.sparsearray.SparseArray" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.stack.*" />
+          <option name="PATTERN" value="cn.cz.sparsearray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayStackDemo" />
+        <item itemvalue="Application.SparseArray" />
         <item itemvalue="Application.ArrayQueue01" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.EightQueen" />
-        <item itemvalue="Application.PolandNotation" />
-        <item itemvalue="Application.ArrayStackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,8 @@
       <workItem from="1582688660870" duration="3780000" />
       <workItem from="1582693819130" duration="17000" />
       <workItem from="1582693851423" duration="399000" />
-      <workItem from="1582697569783" duration="183000" />
+      <workItem from="1582697569783" duration="6113000" />
+      <workItem from="1582704428420" duration="7750000" />
     </task>
     <task id="LOCAL-00001" summary="# mvn-repo-src">
       <created>1582689132909</created>
@@ -188,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582690443213</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="# DataStructures">
+      <created>1582706099056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582706099056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="# 更新了README,以及一些注释">
+      <created>1582726325813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582726325813</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +252,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="# mvn-repo-src" />
     <MESSAGE value="# DataStructures" />
-    <option name="LAST_COMMIT_MESSAGE" value="# DataStructures" />
+    <MESSAGE value="# 更新了README,以及一些注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 更新了README,以及一些注释" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="94" key="#Auto_Import" timestamp="1581690241091">
@@ -258,10 +276,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="182" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1582343504628" />
-    <state x="385" y="32" key="CommitChangelistDialog2" timestamp="1582690441293">
+    <state x="385" y="32" key="CommitChangelistDialog2" timestamp="1582726347013">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="385" y="32" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1582690441293" />
+    <state x="385" y="32" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1582726347013" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1582524792701">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -270,22 +288,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582690364304" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1582694253754">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1582726336261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1582694253754">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582726336261" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1582726336261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1582694253754">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582726336261" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1582726336261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1582694253754">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582726336261" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1582726336261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582726336261" />
     <state width="746" height="466" key="GridCell.Tab.1.bottom" timestamp="1582523468983">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -306,10 +324,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="272" y="19" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582690266363" />
-    <state x="365" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582690518658">
+    <state x="365" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582706150834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="365" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1582690518658" />
+    <state x="365" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1582706150834" />
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582524792701">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
