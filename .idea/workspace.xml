@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="" />
+    <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +38,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XnfNBjv3x62ZEyFb1pt7pVKUoz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +64,20 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.ArrayQueue01">
+    <configuration name="ArrayQueue01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.arrayqueue.ArrayQueue01" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cz.arrayqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.cz.stack.ArrayStackDemo" />
       <module name="DataStructures" />
@@ -101,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.stack.StackLinkedListDemo" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.cz.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.cz.Recursive.Test" />
       <module name="DataStructures" />
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayQueue01" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.EightQueen" />
         <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.ArrayStackDemo" />
-        <item itemvalue="Application.StackLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +171,8 @@
       <workItem from="1582684014122" duration="4017000" />
       <workItem from="1582688660870" duration="3780000" />
       <workItem from="1582693819130" duration="17000" />
-      <workItem from="1582693851423" duration="15000" />
+      <workItem from="1582693851423" duration="399000" />
+      <workItem from="1582697569783" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="# mvn-repo-src">
       <created>1582689132909</created>
@@ -266,22 +270,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582690364304" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1582688044416">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1582694253754">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582688044416" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1582688044416">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1582694253754">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582688044416" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1582688044416">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1582694253754">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582688044416" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1582688044416">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1582694253754">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582688044416" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582694253754" />
     <state width="746" height="466" key="GridCell.Tab.1.bottom" timestamp="1582523468983">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -310,6 +314,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1582524792701" />
+    <state x="564" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582697760181">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="564" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1582697760181" />
     <state x="323" y="171" width="889" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582284831510">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
