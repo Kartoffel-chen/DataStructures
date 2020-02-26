@@ -61,8 +61,8 @@ public class ArrayStackDemo {
                 }
             } else if (val == '(') {
                 //往后遍历得到新的字符串直到遇到')'结束
-                String newNumber = "";
-                while (arr[index + 1] != ')') {
+                String newNumber = "";   // 用于字符串拼接
+                while (arr[index + 1] != ')') {   // 不是右括号 循环
                     char loop = arr[index + 1];
                     newNumber = newNumber + loop;
                     index++;
