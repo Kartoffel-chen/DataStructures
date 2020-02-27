@@ -31,7 +31,6 @@ public class EightQueen {
             if(judge(n)){   //你冲突
                 check(n+1);
             }
-
             //如果冲突就继续循环,把皇后后移一个位置
         }
     }
