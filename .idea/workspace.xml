@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="# 更新了README,以及一些注释">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/cz/Recursive/EightQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/cz/Recursive/EightQueen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
   <component name="ProjectId" id="1XnfNBjv3x62ZEyFb1pt7pVKUoz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +67,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.EightQueen">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="ArrayQueue01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.cz.arrayqueue.ArrayQueue01" />
       <module name="DataStructures" />
@@ -87,6 +87,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.cz.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.sort.BubbleSort" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cz.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.Recursive.Test" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.cz.Recursive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.EightQueen" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.SparseArray" />
         <item itemvalue="Application.ArrayQueue01" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,9 @@
       <workItem from="1582693851423" duration="399000" />
       <workItem from="1582697569783" duration="6113000" />
       <workItem from="1582704428420" duration="7889000" />
-      <workItem from="1582763655545" duration="6132000" />
+      <workItem from="1582763655545" duration="8357000" />
+      <workItem from="1582785318782" duration="5943000" />
+      <workItem from="1582856005971" duration="4338000" />
     </task>
     <task id="LOCAL-00001" summary="# mvn-repo-src">
       <created>1582689132909</created>
@@ -290,22 +292,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582690364304" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1582726495387">
+    <state width="1062" height="161" key="GridCell.Tab.0.bottom" timestamp="1582863554368">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582726495387" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1582726495387">
+    <state width="1062" height="161" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582863554368" />
+    <state width="1062" height="161" key="GridCell.Tab.0.center" timestamp="1582863554367">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582726495387" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1582726495387">
+    <state width="1062" height="161" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582863554367" />
+    <state width="1062" height="161" key="GridCell.Tab.0.left" timestamp="1582863554367">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582726495387" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1582726495387">
+    <state width="1062" height="161" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582863554367" />
+    <state width="1062" height="161" key="GridCell.Tab.0.right" timestamp="1582863554367">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582726495387" />
+    <state width="1062" height="161" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582863554367" />
     <state width="746" height="466" key="GridCell.Tab.1.bottom" timestamp="1582523468983">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -358,14 +360,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="356" y="48" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1581686756255" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1582523815204">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1582788535930">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1582523815204" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1582643655016">
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1582788535930" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1582863406294">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1582643655016" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1582863406294" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
