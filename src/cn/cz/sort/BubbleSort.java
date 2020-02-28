@@ -16,7 +16,7 @@ public class BubbleSort {
 
         int[] arr = new int[80000];
         for (int i = 0; i < 80000; i++) {
-            arr[i] = (int)(Math.random() * 80000);           //1-8万的随机数据存入数组
+            arr[i] = (int)(Math.random() * 800000);           //1-8万的随机数据存入数组
         }
 
         SimpleDateFormat smf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");   //格式化时间输出样式
