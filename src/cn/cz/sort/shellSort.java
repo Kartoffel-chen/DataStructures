@@ -13,9 +13,9 @@ public class shellSort {
 //        int[] arr = {6, 8, 4, 0, -5, 10};
 //        shellSort2(arr);
 
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            arr[i] = (int) (Math.random() * 80000);           //1-8万的随机数据存入数组
+        int[] arr = new int[8000000];
+        for (int i = 0; i < 8000000; i++) {
+            arr[i] = (int) (Math.random() * 8000000);           //1-8万的随机数据存入数组
         }
 
         SimpleDateFormat smf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");   //格式化时间输出样式

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="# 更新了README,以及一些注释">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/cz/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/cz/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/cz/sort/shellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/cz/sort/shellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.Recursive.EightQueen" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.sort.InsertSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.Recursive.*" />
+          <option name="PATTERN" value="cn.cz.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.sort.InsertSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.sort.QuickSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -144,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.shellSort" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.EightQueen" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +193,8 @@
       <workItem from="1582856005971" duration="5123000" />
       <workItem from="1582877342357" duration="8061000" />
       <workItem from="1582899048077" duration="5299000" />
+      <workItem from="1582944237849" duration="3073000" />
+      <workItem from="1582947605258" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="# mvn-repo-src">
       <created>1582689132909</created>
@@ -310,38 +315,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582882352603" />
-    <state width="1493" height="309" key="GridCell.Tab.0.bottom" timestamp="1582904380122">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1582949592844">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582904380122" />
-    <state width="1493" height="309" key="GridCell.Tab.0.center" timestamp="1582904380122">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582949592844" />
+    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1582949592844">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582904380122" />
-    <state width="1493" height="309" key="GridCell.Tab.0.left" timestamp="1582904380121">
+    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582949592844" />
+    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1582949592844">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582904380121" />
-    <state width="1493" height="309" key="GridCell.Tab.0.right" timestamp="1582904380122">
+    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582949592844" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1582949592844">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582904380122" />
-    <state width="746" height="309" key="GridCell.Tab.1.bottom" timestamp="1582892250821">
+    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582949592844" />
+    <state width="746" height="424" key="GridCell.Tab.1.bottom" timestamp="1582947351959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="309" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582892250821" />
-    <state width="746" height="309" key="GridCell.Tab.1.center" timestamp="1582892250820">
+    <state width="746" height="424" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582947351959" />
+    <state width="746" height="424" key="GridCell.Tab.1.center" timestamp="1582947351959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="309" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1582892250820" />
-    <state width="746" height="309" key="GridCell.Tab.1.left" timestamp="1582892250820">
+    <state width="746" height="424" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1582947351959" />
+    <state width="746" height="424" key="GridCell.Tab.1.left" timestamp="1582947351959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="309" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1582892250820" />
-    <state width="746" height="309" key="GridCell.Tab.1.right" timestamp="1582892250821">
+    <state width="746" height="424" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1582947351959" />
+    <state width="746" height="424" key="GridCell.Tab.1.right" timestamp="1582947351959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="309" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1582892250821" />
+    <state width="746" height="424" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1582947351959" />
     <state x="272" y="19" key="SettingsEditor" timestamp="1582690266363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -358,6 +363,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1582524792701" />
+    <state x="299" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582947278382">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1582947278382" />
     <state x="564" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582697760181">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
