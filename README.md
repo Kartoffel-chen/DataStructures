@@ -2,7 +2,7 @@ DataStructures
 ==================================
 
 该文件用来展现数据结构与算法的学习思路   
-本次学习来([b站 韩顺平数据结构和算法](https://www.bilibili.com/video/av54029771))
+本次学习来至([b站 韩顺平数据结构和算法](https://www.bilibili.com/video/av54029771))
 ****
 
 |Autor|Kartoffel-chen|
