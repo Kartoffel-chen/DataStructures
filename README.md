@@ -33,8 +33,6 @@ DataStructures
     * 迷宫回溯
     * 八皇后问题
     
-
-    
 * [排序算法](#排序算法)
     * 内部排序
     * 外部排序
@@ -51,6 +49,11 @@ DataStructures
     * [快速排序](#快速排序)
     * [归并排序](#归并排序)
     * [基数排序](#基数排序)
+    
+ * [线性查找](#线性查找)
+ 
+ * [二分法查找](#二分法查找)   
+ 
 ***
 
 ## 内容
@@ -1242,4 +1245,77 @@ for (int size = 0, n = 1; size < numOfTime; size++, n *= 10) {
 * 8千万数据占用的内存大概是3.5g左右
 * 并且这个方法目前不能判断含有 负号的数据(可以增加复数方法,但是存在负数排序时,一般不用基数排序)
 
+***
+
+## **线性查找**
+
+说明 : 对数组中的某个数进行查找
+
+方法 : 顾名思义按照一条线查找,对数组进行遍历,如果满足条件,就返回这个值下标,显示arr[index]
+
+#### 代码思路分析
+
+* 创建一个放回int值的方法
+* 传入数组,遍历数组
+* 遍历过程中判断是否等于需要查找的值
+* 返回下标,找到其在数组中的位置
+* 如果数组存在多个值时
+* 建立一个数组,用于存放找到需要查找的值的所有下标,返回数组
+
+***
+
+## **二分法查找**
+ 
+ 前提 : 需要查找的数据应该是有序数据
+ 
+ 说明 : 对数组进行拆分为两半的方法
+ 
+#### 代码思路分析
+* 需要用到递归进行拆分
+* 传入左右索引指向数组的第一个数据下标以及最后一个数据下标
+* 求出中间值的下标以及中间值下标指向的数据
+* 对需要查找的数据和得到的中间数据比较
+* 大于的话,说明需要查找的数据在右边,小于在左边
+* 然后调用递归,拆分相应的一边数组,直到找到这个值
+```text
+if (findValue < midValue) {  //小于中间值,说明这个需要查找的这个值在中间值的左边
+    return binarySearch(arr, left, mid - 1, findValue);
+} else if (findValue > midValue) {    //大于中间值,说明这个需要查找的值在中间值的右边
+    return binarySearch(arr, mid + 1, right, findValue);
+``` 
+* 当找到这个值时候,不要第一时间返回(当然不排除需求中,不存在相同的值)
+* 创建一个数组集合用于存放这些满足的数据下标
+```text
+//但是这里数据中可能存在多个需要查找的值,所以这里不能直接返回
+ArrayList<Integer> findIndex = new ArrayList<>();
+
+//mid指向满足条件的值
+//指针前移,遍历数组看看是否还存在满足的值
+//满足的话先添加到集合中
+int tempIndex = mid - 1;
+while (true) {
+if (tempIndex < 0 || arr[tempIndex] != findValue) {
+    break;
+}
+findIndex.add(tempIndex);
+tempIndex -= 1;
+}
+
+//当左边的值存放完成后,才能存放当前找到的mid
+findIndex.add(mid);
+
+//接着就继续遍历数组右边
+//存放满足条件的下标
+tempIndex = mid + 1;
+while (true) {
+if (tempIndex > arr.length - 1 || arr[tempIndex] != findValue) {
+    break;
+}
+findIndex.add(tempIndex);
+tempIndex += 1;
+}
+
+//最后返回数组
+return findIndex;
+```
 ***
