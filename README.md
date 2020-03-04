@@ -54,6 +54,9 @@ DataStructures
  
  * [二分法查找](#二分法查找)   
  
+ * [插值查找](#插值查找) 
+ 
+ * [哈希表](#哈希表)
 ***
 
 ## 内容
@@ -1319,3 +1322,85 @@ tempIndex += 1;
 return findIndex;
 ```
 ***
+
+
+## **插值查找**
+
+方法 : 二分法的一种优化,针对数值差距比较小的数值
+
+插值公式   
+```int mid = left + (key - arr[left]) / (arr[right] - arr[left]) * (right - left);```
+
+说明 :  left 左索引
+        right 右索引
+        key  需要查找的值
+        
+#### 代码思路分析
+
+* 本质方法就是二分法,对其进行递归查找
+* 二分法是找到中简直mid
+* 而插值查询法是换一个公式进行查找
+* 满足条件就结束,或者放入集合,不满足就继续递归查询操作
+
+````text
+//插值查找公式
+int mid = left + (key - arr[left]) / (arr[right] - arr[left]) * (right - left);
+int midValue = arr[mid];
+
+//二分递归
+if (key < midValue) {   //在左边
+    return insertValueSearch(arr, left, mid - 1, key);
+} else if (key > midValue) {   // 在右边
+    return insertValueSearch(arr, mid + 1, right, key);
+} else {   //就是当前值
+````
+***
+ 
+ 
+ ## **哈希表**
+ 
+ 例子
+ ```text
+   数组      链表
+    1   ---> Node1.1 ---> Node1.2 ---> Node1.3        
+    2   ---> Node2.1 ---> Node2.2
+    3
+    4
+    5
+    6
+    7
+``` 
+
+说明: 又称散列表   
+* 哈希表底层是数组和链表的结合
+* 如上例,数组 1 ~ 9 每个下标都指向一条新的链表
+
+#### 代码思路分析
+
+* 由于是数组和链表的结合
+* 首先创建一个节点以及对节点操作(Node , NodeLinkedList)
+* 创建节点操作的增删改查功能
+* 然后开始创建哈希表
+    * 由于是多条链表创建的哈希数组
+    * NodeLinkedlist[] arr = new .....;
+    * 定义好哈希数组大小以后
+    * 实例化数组
+    ```text
+     public HashTab(int size) {
+        this.size = size;
+        hashArr = new StuLinkedList[size];
+        
+        //实例化数组
+        for (int i = 0; i < hashArr.length; i++) {
+            hashArr[i] = new StuLinkedList();
+        }
+     }
+    ```
+ * 定义一个对数据进行添加到哈希数组中的方法
+ * 例如 : 哈希数组表示为 1班 2班 3班....
+ * 一班id由 201901开头,二班id由 201902开头
+ * 那我们获取这个学生的id开头的这六个数据进行判断
+ * 如果是01 那就加入1班
+ * 如果是02 加入二班   ........
+ * hashArr.add(01).stuadd(id);
+ 
