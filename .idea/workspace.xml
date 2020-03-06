@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="38bcfa21-6a0f-407f-8914-e74e2e3aba46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/search/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/hashtable/HashTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/hashtable/HashTab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/hashtable/StuLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/hashtable/StuLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/hashtable/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/cn/cz/hashtable/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,20 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="Application.HashTabDemo">
+  <component name="RunManager" selected="Application.BinaryTreeDemo">
+    <configuration name="ArrayBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.tree.ArrayBinaryTreeDemo" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cz.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayQueue01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.cz.arrayqueue.ArrayQueue01" />
       <module name="DataStructures" />
@@ -95,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.search.BinarySearch" />
+    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.tree.BinaryTreeDemo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.search.*" />
+          <option name="PATTERN" value="cn.cz.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +129,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.cz.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.search.InsertValueSearch" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.cz.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeDemo" />
+        <item itemvalue="Application.ArrayBinaryTreeDemo" />
         <item itemvalue="Application.HashTabDemo" />
         <item itemvalue="Application.ArrayQueue01" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.InsertValueSearch" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +209,11 @@
       <workItem from="1583204512172" duration="5137000" />
       <workItem from="1583244506009" duration="1765000" />
       <workItem from="1583246299662" duration="4580000" />
-      <workItem from="1583307661133" duration="5259000" />
+      <workItem from="1583307661133" duration="6730000" />
+      <workItem from="1583389444570" duration="7884000" />
+      <workItem from="1583408730958" duration="8000" />
+      <workItem from="1583487163332" duration="6019000" />
+      <workItem from="1583498313953" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="# mvn-repo-src">
       <created>1582689132909</created>
@@ -315,10 +321,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="525" y="227" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.864@0.0.1536.864" timestamp="1583246274472" />
-    <state x="524" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1583310455009">
+    <state x="524" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1583492231257">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="524" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1583310455009" />
+    <state x="524" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1583492231257" />
     <state x="620" y="324" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583049229312">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -347,22 +353,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583246268885" />
-    <state width="746" height="208" key="GridCell.Tab.0.bottom" timestamp="1583311607399">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1583498221394">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="208" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583311607399" />
-    <state width="746" height="208" key="GridCell.Tab.0.center" timestamp="1583311607399">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583498221394" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1583498221394">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="208" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583311607399" />
-    <state width="746" height="208" key="GridCell.Tab.0.left" timestamp="1583311607398">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583498221394" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1583498221393">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="208" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583311607398" />
-    <state width="746" height="208" key="GridCell.Tab.0.right" timestamp="1583311607399">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583498221393" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1583498221394">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="208" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583311607399" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583498221394" />
     <state width="671" height="258" key="GridCell.Tab.1.bottom" timestamp="1583308931104">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -431,14 +437,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="539" y="67" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1583246698945" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1582990077533">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1583492279340">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1582990077533" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1582863406294">
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1583492279340" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583492773738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1582863406294" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583492773738" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
